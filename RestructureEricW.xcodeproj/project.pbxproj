@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2270EB202A2CA400D88366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2270EA202A2CA400D88366 /* AppDelegate.swift */; };
+		FA2270ED202A2CA400D88366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2270EC202A2CA400D88366 /* ViewController.swift */; };
+		FA2270F0202A2CA400D88366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2270EE202A2CA400D88366 /* Main.storyboard */; };
+		FA2270F3202A2CA400D88366 /* RestructureEricW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA2270F1202A2CA400D88366 /* RestructureEricW.xcdatamodeld */; };
+		FA2270F5202A2CA400D88366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2270F4202A2CA400D88366 /* Assets.xcassets */; };
+		FA2270F8202A2CA400D88366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2270F6202A2CA400D88366 /* LaunchScreen.storyboard */; };
+		FA227103202A2CA400D88366 /* RestructureEricWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA227102202A2CA400D88366 /* RestructureEricWTests.swift */; };
+		FA22710E202A2CA400D88366 /* RestructureEricWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22710D202A2CA400D88366 /* RestructureEricWUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2270FF202A2CA400D88366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2270DF202A2CA400D88366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2270E6202A2CA400D88366;
+			remoteInfo = RestructureEricW;
+		};
+		FA22710A202A2CA400D88366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2270DF202A2CA400D88366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2270E6202A2CA400D88366;
+			remoteInfo = RestructureEricW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2270E7202A2CA400D88366 /* RestructureEricW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestructureEricW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2270EA202A2CA400D88366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA2270EC202A2CA400D88366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA2270EF202A2CA400D88366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2270F2202A2CA400D88366 /* RestructureEricW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestructureEricW.xcdatamodel; sourceTree = "<group>"; };
+		FA2270F4202A2CA400D88366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2270F7202A2CA400D88366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2270F9202A2CA400D88366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2270FE202A2CA400D88366 /* RestructureEricWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestructureEricWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA227102202A2CA400D88366 /* RestructureEricWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestructureEricWTests.swift; sourceTree = "<group>"; };
+		FA227104202A2CA400D88366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA227109202A2CA400D88366 /* RestructureEricWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestructureEricWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA22710D202A2CA400D88366 /* RestructureEricWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestructureEricWUITests.swift; sourceTree = "<group>"; };
+		FA22710F202A2CA400D88366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2270E4202A2CA400D88366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2270FB202A2CA400D88366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA227106202A2CA400D88366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2270DE202A2CA400D88366 = {
+			isa = PBXGroup;
+			children = (
+				FA2270E9202A2CA400D88366 /* RestructureEricW */,
+				FA227101202A2CA400D88366 /* RestructureEricWTests */,
+				FA22710C202A2CA400D88366 /* RestructureEricWUITests */,
+				FA2270E8202A2CA400D88366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2270E8202A2CA400D88366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2270E7202A2CA400D88366 /* RestructureEricW.app */,
+				FA2270FE202A2CA400D88366 /* RestructureEricWTests.xctest */,
+				FA227109202A2CA400D88366 /* RestructureEricWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2270E9202A2CA400D88366 /* RestructureEricW */ = {
+			isa = PBXGroup;
+			children = (
+				FA2270EA202A2CA400D88366 /* AppDelegate.swift */,
+				FA2270EC202A2CA400D88366 /* ViewController.swift */,
+				FA2270EE202A2CA400D88366 /* Main.storyboard */,
+				FA2270F4202A2CA400D88366 /* Assets.xcassets */,
+				FA2270F6202A2CA400D88366 /* LaunchScreen.storyboard */,
+				FA2270F9202A2CA400D88366 /* Info.plist */,
+				FA2270F1202A2CA400D88366 /* RestructureEricW.xcdatamodeld */,
+			);
+			path = RestructureEricW;
+			sourceTree = "<group>";
+		};
+		FA227101202A2CA400D88366 /* RestructureEricWTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA227102202A2CA400D88366 /* RestructureEricWTests.swift */,
+				FA227104202A2CA400D88366 /* Info.plist */,
+			);
+			path = RestructureEricWTests;
+			sourceTree = "<group>";
+		};
+		FA22710C202A2CA400D88366 /* RestructureEricWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA22710D202A2CA400D88366 /* RestructureEricWUITests.swift */,
+				FA22710F202A2CA400D88366 /* Info.plist */,
+			);
+			path = RestructureEricWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2270E6202A2CA400D88366 /* RestructureEricW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA227112202A2CA400D88366 /* Build configuration list for PBXNativeTarget "RestructureEricW" */;
+			buildPhases = (
+				FA2270E3202A2CA400D88366 /* Sources */,
+				FA2270E4202A2CA400D88366 /* Frameworks */,
+				FA2270E5202A2CA400D88366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestructureEricW;
+			productName = RestructureEricW;
+			productReference = FA2270E7202A2CA400D88366 /* RestructureEricW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2270FD202A2CA400D88366 /* RestructureEricWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA227115202A2CA400D88366 /* Build configuration list for PBXNativeTarget "RestructureEricWTests" */;
+			buildPhases = (
+				FA2270FA202A2CA400D88366 /* Sources */,
+				FA2270FB202A2CA400D88366 /* Frameworks */,
+				FA2270FC202A2CA400D88366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA227100202A2CA400D88366 /* PBXTargetDependency */,
+			);
+			name = RestructureEricWTests;
+			productName = RestructureEricWTests;
+			productReference = FA2270FE202A2CA400D88366 /* RestructureEricWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA227108202A2CA400D88366 /* RestructureEricWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA227118202A2CA400D88366 /* Build configuration list for PBXNativeTarget "RestructureEricWUITests" */;
+			buildPhases = (
+				FA227105202A2CA400D88366 /* Sources */,
+				FA227106202A2CA400D88366 /* Frameworks */,
+				FA227107202A2CA400D88366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA22710B202A2CA400D88366 /* PBXTargetDependency */,
+			);
+			name = RestructureEricWUITests;
+			productName = RestructureEricWUITests;
+			productReference = FA227109202A2CA400D88366 /* RestructureEricWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2270DF202A2CA400D88366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eric Witowski";
+				TargetAttributes = {
+					FA2270E6202A2CA400D88366 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FA2270FD202A2CA400D88366 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2270E6202A2CA400D88366;
+					};
+					FA227108202A2CA400D88366 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2270E6202A2CA400D88366;
+					};
+				};
+			};
+			buildConfigurationList = FA2270E2202A2CA400D88366 /* Build configuration list for PBXProject "RestructureEricW" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2270DE202A2CA400D88366;
+			productRefGroup = FA2270E8202A2CA400D88366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2270E6202A2CA400D88366 /* RestructureEricW */,
+				FA2270FD202A2CA400D88366 /* RestructureEricWTests */,
+				FA227108202A2CA400D88366 /* RestructureEricWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2270E5202A2CA400D88366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2270F8202A2CA400D88366 /* LaunchScreen.storyboard in Resources */,
+				FA2270F5202A2CA400D88366 /* Assets.xcassets in Resources */,
+				FA2270F0202A2CA400D88366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2270FC202A2CA400D88366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA227107202A2CA400D88366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2270E3202A2CA400D88366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2270F3202A2CA400D88366 /* RestructureEricW.xcdatamodeld in Sources */,
+				FA2270ED202A2CA400D88366 /* ViewController.swift in Sources */,
+				FA2270EB202A2CA400D88366 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2270FA202A2CA400D88366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA227103202A2CA400D88366 /* RestructureEricWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA227105202A2CA400D88366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA22710E202A2CA400D88366 /* RestructureEricWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA227100202A2CA400D88366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2270E6202A2CA400D88366 /* RestructureEricW */;
+			targetProxy = FA2270FF202A2CA400D88366 /* PBXContainerItemProxy */;
+		};
+		FA22710B202A2CA400D88366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2270E6202A2CA400D88366 /* RestructureEricW */;
+			targetProxy = FA22710A202A2CA400D88366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2270EE202A2CA400D88366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2270EF202A2CA400D88366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2270F6202A2CA400D88366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2270F7202A2CA400D88366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA227110202A2CA400D88366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA227111202A2CA400D88366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA227113202A2CA400D88366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = RestructureEricW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.RestructureEricW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA227114202A2CA400D88366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = RestructureEricW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.RestructureEricW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA227116202A2CA400D88366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = RestructureEricWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.RestructureEricWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestructureEricW.app/RestructureEricW";
+			};
+			name = Debug;
+		};
+		FA227117202A2CA400D88366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = RestructureEricWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.RestructureEricWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestructureEricW.app/RestructureEricW";
+			};
+			name = Release;
+		};
+		FA227119202A2CA400D88366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = RestructureEricWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.RestructureEricWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestructureEricW;
+			};
+			name = Debug;
+		};
+		FA22711A202A2CA400D88366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = RestructureEricWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewitowski.RestructureEricWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestructureEricW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2270E2202A2CA400D88366 /* Build configuration list for PBXProject "RestructureEricW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA227110202A2CA400D88366 /* Debug */,
+				FA227111202A2CA400D88366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA227112202A2CA400D88366 /* Build configuration list for PBXNativeTarget "RestructureEricW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA227113202A2CA400D88366 /* Debug */,
+				FA227114202A2CA400D88366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA227115202A2CA400D88366 /* Build configuration list for PBXNativeTarget "RestructureEricWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA227116202A2CA400D88366 /* Debug */,
+				FA227117202A2CA400D88366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA227118202A2CA400D88366 /* Build configuration list for PBXNativeTarget "RestructureEricWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA227119202A2CA400D88366 /* Debug */,
+				FA22711A202A2CA400D88366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA2270F1202A2CA400D88366 /* RestructureEricW.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA2270F2202A2CA400D88366 /* RestructureEricW.xcdatamodel */,
+			);
+			currentVersion = FA2270F2202A2CA400D88366 /* RestructureEricW.xcdatamodel */;
+			path = RestructureEricW.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA2270DF202A2CA400D88366 /* Project object */;
+}
